@@ -1,0 +1,62 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section-country {
+    
+    display: flex;
+    
+    gap: 30px;
+}
+
+.button-country {
+    min-height: 100px;
+    width: 300px;
+    margin-top: 10px;
+
+
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 25%;
+    box-shadow: 7px 7px 3px lightgray;
+}
+
+.button-active {
+    min-height: 100px;
+    width: 300px;
+    margin-top: 10px;
+
+
+    padding: 15px;
+    border: 2px solid red;
+    border-radius: 25%;
+    box-shadow: 7px 7px 3px lightgray;
+}
+
+.button-country:hover {
+    cursor: pointer;
+}
+
+#countdown-timer {
+    font-size: 2em;
+}
+
+#section-countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 span {
+    color: rgb(65, 65, 233);
+}
